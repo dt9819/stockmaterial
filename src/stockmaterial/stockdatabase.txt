@@ -1,0 +1,14 @@
+create database aayush;
+use aayush;
+
+create table sonal(NAME VARCHAR(20),email VARCHAR(40),pass1 VARCHAR(20),pass2 VARCHAR(20),country VARCHAR(20),state VARCHAR(20),phone varchar(10));
+
+
+create table raw(quantity integer(10),type varchar(10));
+insert into raw values(0,'RAW1');
+insert into raw values(0,'RAW2');
+insert into raw values(0,'RAW3');
+
+
+create table login(email varchar(10),pass varchar(10));
+insert into login values('a@g.c','123');
